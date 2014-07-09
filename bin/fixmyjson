@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+var argv = process.argv.slice(2);
+var fixmyjson = require('../lib/fixmyjson');
+var options = {};
+fixmyjson.cli(argv, options);

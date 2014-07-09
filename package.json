@@ -1,0 +1,40 @@
+{
+  "name": "fixmyjson",
+  "description": "Fix my JSON",
+  "version": "0.0.1",
+  "homepage": "http://github.com/stevelacy/fixmyjson",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/stevelacy/fixmyjson.git"
+  },
+  "author": "Steve Lacy <me@slacy.me> (http://slacy.me)",
+  "main": "./lib/fixmyjson.js",
+  "bin": {
+    "fixmyjson": "./bin/fixmyjson"
+  },
+  "dependencies": {
+    "js-beautify": "^1.5.1"
+  },
+  "devDependencies": {
+    "mocha": "^1.20.1",
+    "should": "^4.0.4"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "licenses": {
+    "type": "MIT",
+    "url": "https://github.com/stevelacy/fixmyjson/raw/master/LICENSE"
+  },
+  "bugs": {
+    "url": "https://github.com/stevelacy/fixmyjson/issues"
+  },
+  "keywords": [
+    "fixmyjson",
+    "clean",
+    "js-beautify",
+    "beautify",
+    "json"
+  ],
+  "license": "MIT"
+}
