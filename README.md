@@ -59,6 +59,21 @@ fixmyjson(jsonblob, options, function(clean){
 });
 ```
 
+### Options
+`Object options`
+
+#### indent
+The size or style of indentation.
+
+`options.indent`
+
+Type: String / Number
+
+Number of spaces, or character for tabs
+```
+options.indent = 2
+options.intent = '\t'
+```
 
 ## License
 
