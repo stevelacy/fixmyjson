@@ -15,7 +15,7 @@ describe('fixmyjson', function(){
     });
   });
   it('should use options', function(done){
-    fixmyjson(normalFixture, {indent_size: 4}, function(data){
+    fixmyjson(normalFixture, {indent: 4}, function(data){
       data.should.equal(optionsExpected);
       done();
     });

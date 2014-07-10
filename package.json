@@ -12,9 +12,6 @@
   "bin": {
     "fixmyjson": "./bin/fixmyjson"
   },
-  "dependencies": {
-    "js-beautify": "^1.5.1"
-  },
   "devDependencies": {
     "mocha": "^1.20.1",
     "should": "^4.0.4"
@@ -32,8 +29,6 @@
   "keywords": [
     "fixmyjson",
     "clean",
-    "js-beautify",
-    "beautify",
     "json"
   ],
   "license": "MIT"
